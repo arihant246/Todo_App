@@ -1,0 +1,8 @@
+<li>
+  {{item.todo_text}}
+  <a href="{% url 'todo_app:delete_todo' item.id %}">
+    <button class="remove-item btn btn-default btn-xs pull-right">
+      <span class="glyphicon glyphicon-remove"></span>
+    </button>
+  </a>
+</li>

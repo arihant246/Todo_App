@@ -1,0 +1,7 @@
+<li class="ui-state-default">
+  <div class="checkbox">
+    <a href="{% url 'todo_app:mark_done' item.id %}">
+      <label>{{item.todo_text}}</label>
+    </a>
+  </div>
+</li>
